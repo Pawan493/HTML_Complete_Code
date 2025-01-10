@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>form html</h1>
+  <form>
+    <div>
+      <label for="password">password</label>
+      <input type="password" id="password">
+    </div>
+
+    <div>
+      <label for="number">number</label>
+      <input type="number" id="number">
+    </div>
+
+    <div>
+      <label for="gender">gender</label>
+      <input type="radio" name="gender" value="male"> male
+      <input type="radio" name="gender" value="female"> female
+    </div>
+
+    <div>
+      <label for="hobbies">fav hobbies</label>
+      <input type="checkbox" name="interest" value="music"> music
+      <input type="checkbox" name="interest" value="sports"> sports
+    </div>
+
+    <div>
+      <label for="country">fav country: </label>
+      <select name="country" id="country">
+        <option value="usa">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="India">India</option>
+        <option value="Uk">Uk</option>
+        <option value="Austrila">Austrila</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="country"> Select fav country: </label>
+     <input type="text" id="country" name="country" list="countries">
+     <datalist id="countries">
+        <option value="usa"></option>
+        <option value="Canada"></option>
+        <option value="India"></option>
+        <option value="Uk"></option>
+        <option value="Austrila"></option>
+      </datalist>
+
+      <div>
+        <label for="comment"> message us: </label>
+        <textarea name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea>
+      </div>
+
+      <div>
+        <label for="file">select file: </label>
+        <input type="file" name="fileUpload">
+      </div>
+
+      <input type="submit" value="submit">
+      <button type="submit">submit</button>
+  </form>
+</body>
+</html>
